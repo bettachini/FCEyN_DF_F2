@@ -50,11 +50,9 @@
 \end{center}
 
 
-\section*{Oscilador armónico de un único grado de libertad}
-
-
 \begin{enumerate}
 
+\section*{Oscilador armónico de un único grado de libertad}
 
 \item Escriba y resuelva las ecuaciones de movimiento asociadas con los
 siguientes sistemas: 
@@ -79,6 +77,10 @@ $(l_{0}=l)$.
 \end{figure}
 
 \end{enumerate}
+
+
+\subsection*{Oscilador armónico amortiguado}
+
 \item Considere el movimiento de una masa $m$ sujeta a un resorte de constante
 elástica $K=m\omega_{0}^{2}$ y constante de amortiguamiento por unidad
 de masa $\Gamma$. \\
@@ -96,6 +98,9 @@ x(t)=\mathrm{e}^{-\Gamma t/2}\left\{ x(0)\cos\left(\omega t\right)+\left[\dot{x}
 \]
 \textbf{Sugerencia}: verifique primero las identidades $\cos\left(ix\right)=\cosh\left(x\right)$
 y $\sen\left(ix\right)=i\senh\left(x\right)$; luego úselas.
+
+
+
 \item Comenzando con la ecuación general dada en el problema anterior para
 oscilaciones libres subamortiguadas, muestre que para amortiguamiento
 crítico la solución es:
@@ -104,8 +109,12 @@ x(t)=\mathrm{e}^{-\Gamma t/2}\left\{ x(0)+\left[\dot{x}(0)+\frac{1}{2}\Gamma x(0
 \]
 Muestre que también se obtiene este resultado comenzando con la ecuación
 para oscilaciones sobreamortiguadas.
-\item \quad{}
 
+
+\subsection*{Oscilador armónico forzado}
+
+
+\item% \quad{}
 \begin{enumerate}
 \item Escriba la ecuación de movimiento para una masa $m$ sujeta a un resorte
 de constante elástica $k$ y constante de amortiguamiento por unidad
@@ -158,13 +167,10 @@ a 9 segundos.
 
 \section*{Sistemas de N grados de libertad}
 
-\item \qquad{}
+\item %\qquad{}
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-6}
 \end{figure}
-
-
-
 \begin{enumerate}
 \item Considere el sistema de la figura en ausencia de gravedad y obtenga
 sus frecuencias naturales de oscilación y los modos normales correspondientes.
@@ -174,6 +180,11 @@ $\Psi_{a}(0)=1,\,\Psi_{b}(0)=0$ y que se encuentra en reposo, encuentre
 el movimiento de cada partícula. 
 \item Analice cómo se modifica el resultado por la presencia de la gravedad.
 \end{enumerate}
+
+
+
+\subsection*{Pulsaciones entre modos normales}
+
 \item Considere el sistema de dos péndulos de igual longitud $l$ pero de
 masas diferentes $m_{a}$ y $m_{b}$, acoplados mediante un resorte
 de constante $k$. 
@@ -196,18 +207,24 @@ el gráfico como función de las diferencias entre las masas ($m_{a}=m_{b}$
 y $m_{a}$ muy diferente de $m_{b}$). Calcule el valor medio de la
 energía de interacción entre las dos partículas.
 \end{enumerate}
+
+
 \item Considere el sistema de la figura. Las masas están apoyadas en una
 mesa sen rozamiento, sujetas a las paredes por resortes de constante
 $k$ y unidas por otro resorte de constante $k'$. 
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-8}
 \end{figure}
-
-
 \begin{enumerate}
 \item Obtenga las frecuencias y los modos transversales del sistema. 
 \item ¿Bajo qué condiciones espera observar batidos? ¿Qué son los batidos?
 \end{enumerate}
+
+
+
+\subsection*{Excitación selectiva de modos | Condiciones iniciales}
+
+
 \item Considere el sistema simplificado de la figura que se basa en una
 molécula triatómica simétrica. En el equilibrio dos átomos de masa
 $m$ están situados a ambos lados del átomo de masa $M=2m$ y vinculados
@@ -248,6 +265,8 @@ $m$.
 \end{description}
 
 
+\section*{Modos normales en sistemas periódicos}
+
 
 \item Considere el sistema de $N$ masas mostrado en la figura. 
 \begin{figure}[H]
@@ -277,12 +296,13 @@ y el derecho fijo a la pared.
 \item Particularice los resultados de los dos ítems anteriores para el caso
 en que $N=3$.
 \end{enumerate}
+
+
+
 \item Considere el sistema de péndulos acoplados de la figura. 
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-12}
 \end{figure}
-
-
 \begin{enumerate}
 \item Escriba la ecuación de movimiento. Proponga una solución semejante
 a la del problema anterior y halle la relación de dispersión. Compárela
@@ -294,26 +314,33 @@ para excitar el primer armónico.
 \item Ídem anterior, pero para el caso en que uno de los resortes de los
 extremos está libre. 
 \end{enumerate}
+
+
+\subsection*{Oscilaciones forzadas de sistemas con N grados de libertad}
+
+
 \item Considere el sistema de dos péndulos acoplados, tal que uno de ellos
 es impulsado por una fuerza $F=F_{0}\cos(\Omega t)$. Desprecie el
 amortiguamiento. Muestre que:
 \[
-\Psi_{a}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}}+\frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
+\Psi_{a}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}} - \frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
 \]
 \[
-\Psi_{b}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}}-\frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
+\Psi_{b}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}} + \frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
 \]
 \[
 \frac{\Psi_{b}}{\Psi_{a}}\approx\frac{\omega_{2}^{2}-\omega_{1}^{2}}{\omega_{2}^{2}+\omega_{1}^{2}-2\Omega^{2}};
 \]
 donde $\omega_{1}$ es la menor de las frecuencias modales, $\omega_{2}$
 es la mayor y $\Omega$ es la frecuencia de excitación.
+
+
+
 \item Considere el sistema de 3 péndulos acoplados que se muestra en la
 figura.
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-14}
 \end{figure}
-
 
 \begin{enumerate}
 \item Escriba la ecuación de movimiento para cada masa y encuentre las frecuencias
@@ -323,6 +350,9 @@ Escriba la ecuación de movimiento para cada masa y encuentre la solución
 estacionaria para cada modo. ¿Cuáles son las frecuencias de resonancia?
 \end{enumerate}
 
+
+
+\subsection*{Oscilaciones forzadas de sistemas períodicos}
 
 
 \item Considere un arreglo lineal de péndulos acoplados excitados cuyo extremo
@@ -379,9 +409,15 @@ ese modo?
 cuerda. Halle la forma que adopta la solución general propuesta si
 $\Psi(-L/2,t)=\Psi(L/2,t)=0$ (ambos extremos fijos).
 \end{enumerate}
+
+
+
 \item Se tiene una cuerda de 20 cm de longitud y 5 g de masa, sometida a
 una tensión de 120 N. Calcule sus modos naturales de oscilación. ¿Son
 todos audibles para el oído humano?
+
+
+
 \item Las cuatro cuerdas de un violín, considere que todas son de igual
 longitud, emiten en su modo fundamental las notas: sol$_{\text{2}}$
 (198/s); re$_{\text{3}}$ (297/s); la$_{\text{3}}$ (440/s) y mi$_{\text{4}}$
@@ -391,6 +427,10 @@ material ($\rho=1,2$ g/cm$^{3}$) y diámetros $d_{2}=0,12\unit{\, cm}$
 y $d_{3}=0,1\unit{\, cm}$, y la cuarta es de acero ($\rho=7,5$ g/cm$^{3}$)
 y diámetro $d_{4}=0,1\unit{\, cm}$. Calcular las tensiones a las
 que deben estar sometidas con respecto a la primera.
+
+
+\subsection*{Modos normales del gas en un tubo unidimensional}
+
 \item Se tiene un tubo de longitud $L$. Considere las siguientes posibilidades: 
 
 \begin{itemize}
@@ -417,7 +457,6 @@ diferencia de fase entre ellas? ¿Cuánto vale la amplitud de presión?
 \end{enumerate}
 
 
-\subsection*{Modos normales del gas en un tubo unidimensional}
 
 \item 
 \begin{enumerate}
@@ -439,7 +478,7 @@ en el tubo?
 \end{enumerate}
 
 
-\subsection*{Condiciones iniciales}
+\subsection*{Serie de Fourier: condiciones iniciales en cuerdas}
 
 \item Considere una cuerda de longitud $L$, de densidad de masa uniforme
 $\mu_{0}$ sujeta en ambos extremos y sometida a una tensión $T_{0}$.
@@ -456,6 +495,8 @@ alrededor de $\omega_{1}t=\nicefrac{\pi}{2}$? ¿y alrededor de $\pi$?.
 ¿Cómo espera que sea $\Psi(x,t)$ para $\omega_{1}t=2\pi$? ($\omega_{1}$
 es la frecuencia fundamental).
 \end{enumerate}
+
+
 \item Considere una cuerda de longitud $L$, de densidad de masa uniforme
 $\mu_{0}$ sometida a una tensión $T_{0}$, con un extremo fijo y
 el otro libre. Se le da a la cuerda la forma mostrada en la figura,
@@ -463,7 +504,10 @@ y a $t=0$ se la suelta.
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-25}
 \end{figure}
+
  
+
+% \subsection*{Relación de disepersión en una cuerda}
 
 \begin{enumerate}
 \item Usando el sistema de coordenadas indicado en la figura, halle $\Psi(x,t)$.
@@ -471,6 +515,8 @@ y a $t=0$ se la suelta.
 \item Si tomara un sistema de coordenadas con el origen en el extremo libre
 de la cuerda, diga qué es lo que cambiaría. ¿Es conveniente ese sistema?
 \end{enumerate}
+
+
 \item Considere una cuerda de longitud $L$, siendo $T_{0}$ su tensión
 y $\mu_{0}$ su densidad lineal. Sea $\Phi(x,t)$ la elongación de
 la cuerda.
@@ -488,6 +534,9 @@ temporales $\nu_{n}$.
 siendo $0\le x\le L$, obtenga la amplitud y fase de cada modo y halle
 $\Phi(x,t)$.
 \end{enumerate}
+
+
+
 \item Dada una cuerda de longitud $L$ y densidad de masa uniforme $\mu$,
 sometida a una tensión $T_{0}$ con ambos extremos fijos, demostrar
 que si $\Phi(x,0)$ y $\dot{\Phi}(x,0)$ son simétricas con respecto
@@ -497,7 +546,6 @@ no se excitan.
 a una tensión $T_{0}$, que consta de dos tramos: uno de longitud
 $L_{1}$ y densidad de masa uniforme $\mu_{1}$, y otro de longitud
 $L_{2}$ y densidad de masa uniforme $\mu_{2}$.
-
 \begin{enumerate}
 \item Halle la expresión más general para un modo normal en dicha cuerda.
 Plantee las condiciones de contorno y halle las condiciones que deben
@@ -505,11 +553,18 @@ cumplir los distintos parámetros.
 \item Considere que $L_{1}=3L_{2}$ y que $\mu_{2}=9\mu_{1}$. Hallar los
 modos normales en este caso.
 \end{enumerate}
+
+
 \item Se tiene una cuerda de longitud $L$ y densidad de masa uniforme $\mu$,
 sometida a una tensión $T_{0}$ y fija en ambos extremos. Se tiene
 además que una fuerza de amortiguamiento proporcional a la velocidad
 de la cuerda actúa en cada punto de la misma. Hallar la forma más
 general de $\Phi(x,t)$.
+
+
+\subsection*{Serie de Fourier: condiciones iniciales para gas en un tubo}
+
+
 \item Se tiene un tubo de longitud $L$ cerrado en ambos extremos como se
 indica en la figura. El tubo presenta un tabique ubicado en la mitad
 del mismo. De un lado del tabique hay un gas de densidad $\rho_{0}-\Delta$
@@ -542,12 +597,15 @@ y $\delta\rho(x,t)$.
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-31}
 \end{figure}
-
-
 \begin{description}
 \item [{Datos:}] $P_{0}$, $\Delta p\ll P_{0}$, $L$, $\gamma$ y la velocidad
 del sonido en el gas $v_{s}$.
 \end{description}
+
+
+\subsection*{Onda estacionaria en cuerda como superposición de viajeras}
+
+
 \item Se tiene una cuerda de longitud $L=0,6\unit{\, m}$, fija en sus dos
 extremos, que se encuentra oscilando en uno de sus modos normales
 como se muestra en la figura. La velocidad de propagación de las ondas
@@ -555,14 +613,14 @@ en dicha cuerda es \(v=80 \unit{m/s}\).
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-32}
 \end{figure}
-
-
 \begin{enumerate}
 	\item Escribir $\Psi(x,t)$ (la elongación en un punto de la cuerda), sabiendo que a $t=0$ la elongación de todos los puntos es nula; que la amplitud total máxima de la onda es de \(8\unit{mm}\), y que $\dot{\Psi}(L/2,0)>0$
 	\item Hallar $\Psi_{1}(x-vt)$ y $\Psi_{2}(x+vt)$ tales que $\Psi(x,t)=\Psi_{1}(x-vt)+\Psi_{2}(x+vt)$,
 es decir: escribir a $\Psi(x,t)$ como la superposición de dos ondas
 viajeras.
 \end{enumerate}
+
+
 
 \item Se tiene una cuerda de longitud $L=1\unit{m}$, con un extremo fijo y uno
 libre, oscilando en el modo normal que se muestra en la figura. La
@@ -573,8 +631,6 @@ de \SI{8}{mm}.
 \begin{figure}[H]
 \centering{}\includegraphics[clip,scale=0.25]{ej1-33}
 \end{figure}
-
-
 \begin{enumerate}
 \item Resolver, para esta situación, todo lo pedido en el problema anterior. 
 \item Si ahora la cuerda está oscilando en un modo normal arbitrario $n$,
