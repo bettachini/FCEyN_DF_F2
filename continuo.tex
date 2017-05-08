@@ -131,7 +131,7 @@ de las ondas en el gas).
 
 \section*{Ecuación de onda}
 
-\item La ecuación de una onda transversal en una cuerda está dada por: $y(x,t)=0,1\unit{\, m}\sin\left[\pi\left(x\unit{\, m^{-1}-4\unit{\, s^{-1}}}\right)\right]$
+\item La ecuación de una onda transversal en una cuerda está dada por: $y(x,t)=0,1\unit{\, m}\sin\left[\pi\left(x\unit{\, m^{-1}- 4 t \unit{\, s^{-1}}}\right)\right]$
 ($x$ e $y$ en metros y $t$ en segundos). Determine:
 \begin{enumerate}
 \item La amplitud de la onda.
@@ -306,7 +306,8 @@ se debe aumentar $\Delta k$? Derive $\Delta x$ con respecto a $\Delta k$
 de la expresión anterior y analice lo pedido.
 \end{enumerate}
 \begin{description}
-	\item [{Ayuda:}] $\int_{-\infty}^{+\infty}\exp\left[-(\alpha x)^{2}\right]dx=\sqrt{\frac{\pi}{\alpha}}$.
+	\item [{Ayuda:}] \( \int\limits_{-\infty}^{\infty} e^{-\alpha x^2} \mathrm{d}x = \sqrt{\frac{\pi}{\alpha} } \), \( \int\limits_{-\infty}^{\infty} e^{-(x+ a)^2} \mathrm{d}x = \sqrt{\pi}\)
+	% \item [{Ayuda:}] $\int_{-\infty}^{+\infty}\exp\left[-(\alpha x)^{2}\right]dx= \frac{\sqrt{\pi}}{\alpha} $.
 \end{description}
 
 
@@ -322,17 +323,16 @@ y cero en otra parte; vea que $\phi(t)$ está dada por:
 \begin{enumerate}
 \item Grafique $\Psi(\omega)$ y $\left|\phi(t)\right|$.
 \item Sea $T$ un tiempo más prolongado que la duración de cualquier experimento
-que pueda idear. Muestre que si $\Delta\omega$ es suficientemente
-pequeño como para que $\Delta\omega T\ll1$, entonces durante un tiempo
-menor que $T$, $\phi(t)$ es una función armónica de amplitud y fase
-casi constante.
+que pueda idear.
+Muestre que si $\Delta\omega$ es suficientemente pequeño como para que $\Delta\omega T\ll1$, entonces durante un tiempo menor que $T$, $\phi(t)$ es una función armónica de amplitud y fase casi constante.
 \end{enumerate}
 
 
 % Pulso cuadrado
 \item Sea $\phi(t)$ una función real.
 \begin{enumerate}
-	\item Muestre que su transformada de Fourier $\Psi(\omega)$ cumple $\Psi(\omega)=\Psi(-\omega)$.
+	\item Muestre que su transformada de Fourier $\Psi(\omega)$ cumple $\Psi(\omega) = \Psi^*(-\omega)$ ($\Psi(\omega) = |\Psi(-\omega)|$).
+	% \item Muestre que su transformada de Fourier $\Psi(\omega)$ cumple $\Psi(\omega)=\Psi(-\omega)$.
 Use esto para escribir a $\phi(t)$ como superposición de senos y
 cosenos.
 	\item Muestre que la transformada de Fourier $\mathcal{F}$ es lineal, esto
