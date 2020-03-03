@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.2.4)  2 MAR 2020 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.2.4)  3 MAR 2020 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -368,6 +368,9 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -718,7 +721,7 @@ s
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 38.
+less on input line 39.
 
 (./oscilaciones.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -726,20 +729,20 @@ LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `oscilaciones.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
@@ -893,24 +896,24 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 43.
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+(lastpage)             ! on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-1.eps>
 (epstopdf)                    date: 2017-03-06 15:23:23
 (epstopdf)                    size: 6423 bytes
@@ -920,20 +923,20 @@ to.pdf>
 (epstopdf)                    size: 3495 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 1-eps-converted-to.pdf ./graphs_oscilaciones/ej1-1.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-1-eps-converted-to.pdf, id=4, 548.0475pt x 295.1025p
 t>
 File: ./graphs_oscilaciones/ej1-1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphs_oscilaciones/ej1-1-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-1-eps-converted-to.pdf  used
- on input line 76.
+ on input line 70.
 (pdftex.def)             Requested size: 137.01154pt x 73.77544pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./graphs_oscilaciones/ej1-
 1-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for U+euf on input line 143.
+LaTeX Font Info:    Try loading font information for U+euf on input line 115.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
@@ -946,14 +949,14 @@ to.pdf>
 (epstopdf)                    size: 7027 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 6-eps-converted-to.pdf ./graphs_oscilaciones/ej1-6.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-6-eps-converted-to.pdf, id=27, 513.92pt x 464.73625p
 t>
 File: ./graphs_oscilaciones/ej1-6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphs_oscilaciones/ej1-6-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-6-eps-converted-to.pdf  used
- on input line 172.
+ on input line 139.
 (pdftex.def)             Requested size: 128.47968pt x 116.18378pt.
  [2 <./graphs_oscilaciones/ej1-6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-7.eps>
@@ -965,14 +968,14 @@ to.pdf>
 (epstopdf)                    size: 7112 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 7-eps-converted-to.pdf ./graphs_oscilaciones/ej1-7.eps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-7-eps-converted-to.pdf, id=36, 453.695pt x 383.4325p
 t>
 File: ./graphs_oscilaciones/ej1-7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphs_oscilaciones/ej1-7-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-7-eps-converted-to.pdf  used
- on input line 192.
+ on input line 156.
 (pdftex.def)             Requested size: 136.10954pt x 115.03062pt.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-8.eps>
 (epstopdf)                    date: 2017-03-06 15:23:36
@@ -983,14 +986,14 @@ to.pdf>
 (epstopdf)                    size: 4287 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 8-eps-converted-to.pdf ./graphs_oscilaciones/ej1-8.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-8-eps-converted-to.pdf, id=38, 632.3625pt x 233.8737
 5pt>
 File: ./graphs_oscilaciones/ej1-8-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphs_oscilaciones/ej1-8-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-8-eps-converted-to.pdf  used
- on input line 216.
+ on input line 173.
 (pdftex.def)             Requested size: 158.09024pt x 58.46828pt.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-9.eps>
 (epstopdf)                    date: 2017-03-06 15:23:40
@@ -1001,14 +1004,14 @@ to.pdf>
 (epstopdf)                    size: 5295 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 9-eps-converted-to.pdf ./graphs_oscilaciones/ej1-9.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-9-eps-converted-to.pdf, id=40, 514.92375pt x 236.885
 pt>
 File: ./graphs_oscilaciones/ej1-9-eps-converted-to.pdf Graphic file (type pdf)
 <use ./graphs_oscilaciones/ej1-9-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-9-eps-converted-to.pdf  used
- on input line 236.
+ on input line 190.
 (pdftex.def)             Requested size: 128.73062pt x 59.2211pt.
  [3 <./graphs_oscilaciones/ej1-7-eps-converted-to.pdf> <./graphs_oscilaciones/e
 j1-8-eps-converted-to.pdf> <./graphs_oscilaciones/ej1-9-eps-converted-to.pdf>]
@@ -1021,7 +1024,7 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-10.eps>
 (epstopdf)                    size: 5812 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 10-eps-converted-to.pdf ./graphs_oscilaciones/ej1-10.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-10-eps-converted-to.pdf, id=55, 945.5325pt x 443.657
 5pt>
@@ -1029,7 +1032,7 @@ File: ./graphs_oscilaciones/ej1-10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-10-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-10-eps-converted-to.pdf  use
-d on input line 253.
+d on input line 203.
 (pdftex.def)             Requested size: 236.38254pt x 110.9141pt.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-11.eps>
 (epstopdf)                    date: 2017-03-06 15:23:52
@@ -1040,7 +1043,7 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-11.eps>
 (epstopdf)                    size: 9408 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 11-eps-converted-to.pdf ./graphs_oscilaciones/ej1-11.eps>
-(epstopdf)             \includegraphics on input line 274.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-11-eps-converted-to.pdf, id=57, 1542.76375pt x 274.0
 2374pt>
@@ -1048,7 +1051,7 @@ File: ./graphs_oscilaciones/ej1-11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-11-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-11-eps-converted-to.pdf  use
-d on input line 274.
+d on input line 222.
 (pdftex.def)             Requested size: 385.68999pt x 68.50577pt.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-12.eps>
 (epstopdf)                    date: 2017-03-06 15:23:56
@@ -1059,7 +1062,7 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-12.eps>
 (epstopdf)                    size: 6014 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 12-eps-converted-to.pdf ./graphs_oscilaciones/ej1-12.eps>
-(epstopdf)             \includegraphics on input line 304.
+(epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-12-eps-converted-to.pdf, id=59, 973.6375pt x 386.443
 76pt>
@@ -1067,10 +1070,11 @@ File: ./graphs_oscilaciones/ej1-12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-12-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-12-eps-converted-to.pdf  use
-d on input line 304.
+d on input line 245.
 (pdftex.def)             Requested size: 243.40877pt x 96.6107pt.
  [4 <./graphs_oscilaciones/ej1-10-eps-converted-to.pdf> <./graphs_oscilaciones/
-ej1-11-eps-converted-to.pdf>]
+ej1-11-eps-converted-to.pdf> <./graphs_oscilaciones/ej1-12-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-14.eps>
 (epstopdf)                    date: 2017-03-06 15:24:00
 (epstopdf)                    size: 13217 bytes
@@ -1080,15 +1084,15 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-14.eps>
 (epstopdf)                    size: 6259 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 14-eps-converted-to.pdf ./graphs_oscilaciones/ej1-14.eps>
-(epstopdf)             \includegraphics on input line 342.
+(epstopdf)             \includegraphics on input line 277.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-14-eps-converted-to.pdf, id=70, 602.25pt x 374.39874
+<./graphs_oscilaciones/ej1-14-eps-converted-to.pdf, id=73, 602.25pt x 374.39874
 pt>
 File: ./graphs_oscilaciones/ej1-14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-14-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-14-eps-converted-to.pdf  use
-d on input line 342.
+d on input line 277.
 (pdftex.def)             Requested size: 150.56212pt x 93.59946pt.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-15.eps>
 (epstopdf)                    date: 2017-03-06 15:24:05
@@ -1099,18 +1103,16 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-15.eps>
 (epstopdf)                    size: 4898 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 15-eps-converted-to.pdf ./graphs_oscilaciones/ej1-15.eps>
-(epstopdf)             \includegraphics on input line 362.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-15-eps-converted-to.pdf, id=72, 990.70125pt x 418.56
+<./graphs_oscilaciones/ej1-15-eps-converted-to.pdf, id=75, 990.70125pt x 418.56
 375pt>
 File: ./graphs_oscilaciones/ej1-15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-15-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-15-eps-converted-to.pdf  use
-d on input line 362.
+d on input line 295.
 (pdftex.def)             Requested size: 247.6747pt x 104.64067pt.
- [5 <./graphs_oscilaciones/ej1-12-eps-converted-to.pdf> <./graphs_oscilaciones/
-ej1-14-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-16.eps>
 (epstopdf)                    date: 2017-03-06 15:24:09
 (epstopdf)                    size: 20372 bytes
@@ -1120,16 +1122,18 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-16.eps>
 (epstopdf)                    size: 8230 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 16-eps-converted-to.pdf ./graphs_oscilaciones/ej1-16.eps>
-(epstopdf)             \includegraphics on input line 375.
+(epstopdf)             \includegraphics on input line 306.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-16-eps-converted-to.pdf, id=83, 1447.4075pt x 561.09
+<./graphs_oscilaciones/ej1-16-eps-converted-to.pdf, id=77, 1447.4075pt x 561.09
 625pt>
 File: ./graphs_oscilaciones/ej1-16-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-16-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-16-eps-converted-to.pdf  use
-d on input line 375.
+d on input line 306.
 (pdftex.def)             Requested size: 361.851pt x 140.27371pt.
+ [5 <./graphs_oscilaciones/ej1-14-eps-converted-to.pdf> <./graphs_oscilaciones/
+ej1-15-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-17.eps>
 (epstopdf)                    date: 2017-03-06 15:24:13
 (epstopdf)                    size: 16365 bytes
@@ -1139,19 +1143,24 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-17.eps>
 (epstopdf)                    size: 7621 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 17-eps-converted-to.pdf ./graphs_oscilaciones/ej1-17.eps>
-(epstopdf)             \includegraphics on input line 382.
+(epstopdf)             \includegraphics on input line 313.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-17-eps-converted-to.pdf, id=85, 1170.3725pt x 381.42
+<./graphs_oscilaciones/ej1-17-eps-converted-to.pdf, id=88, 1170.3725pt x 381.42
 5pt>
 File: ./graphs_oscilaciones/ej1-17-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-17-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-17-eps-converted-to.pdf  use
-d on input line 382.
+d on input line 313.
 (pdftex.def)             Requested size: 292.5924pt x 95.356pt.
- [6 <./graphs_oscilaciones/ej1-15-eps-converted-to.pdf> <./graphs_oscilaciones/
-ej1-16-eps-converted-to.pdf> <./graphs_oscilaciones/ej1-17-eps-converted-to.pdf
->]
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 350.
+
+[6 <./graphs_oscilaciones/ej1-16-eps-converted-to.pdf> <./graphs_oscilaciones/e
+j1-17-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-25.eps>
 (epstopdf)                    date: 2017-03-06 15:24:18
 (epstopdf)                    size: 9934 bytes
@@ -1161,7 +1170,7 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-25.eps>
 (epstopdf)                    size: 5116 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 25-eps-converted-to.pdf ./graphs_oscilaciones/ej1-25.eps>
-(epstopdf)             \includegraphics on input line 505.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 <./graphs_oscilaciones/ej1-25-eps-converted-to.pdf, id=99, 671.50874pt x 454.69
 875pt>
@@ -1169,9 +1178,9 @@ File: ./graphs_oscilaciones/ej1-25-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-25-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-25-eps-converted-to.pdf  use
-d on input line 505.
+d on input line 427.
 (pdftex.def)             Requested size: 167.87677pt x 113.67441pt.
- [7]
+ [7 <./graphs_oscilaciones/ej1-25-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-30.eps>
 (epstopdf)                    date: 2017-03-06 15:24:23
 (epstopdf)                    size: 12080 bytes
@@ -1181,17 +1190,16 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-30.eps>
 (epstopdf)                    size: 5811 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 30-eps-converted-to.pdf ./graphs_oscilaciones/ej1-30.eps>
-(epstopdf)             \includegraphics on input line 569.
+(epstopdf)             \includegraphics on input line 491.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-30-eps-converted-to.pdf, id=105, 633.36626pt x 302.1
+<./graphs_oscilaciones/ej1-30-eps-converted-to.pdf, id=108, 633.36626pt x 302.1
 2875pt>
 File: ./graphs_oscilaciones/ej1-30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-30-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-30-eps-converted-to.pdf  use
-d on input line 569.
+d on input line 491.
 (pdftex.def)             Requested size: 158.34117pt x 75.532pt.
- [8 <./graphs_oscilaciones/ej1-25-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-31.eps>
 (epstopdf)                    date: 2017-03-06 15:24:26
 (epstopdf)                    size: 14005 bytes
@@ -1201,16 +1209,17 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-31.eps>
 (epstopdf)                    size: 7501 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 31-eps-converted-to.pdf ./graphs_oscilaciones/ej1-31.eps>
-(epstopdf)             \includegraphics on input line 592.
+(epstopdf)             \includegraphics on input line 514.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-31-eps-converted-to.pdf, id=113, 607.26875pt x 238.8
+<./graphs_oscilaciones/ej1-31-eps-converted-to.pdf, id=110, 607.26875pt x 238.8
 925pt>
 File: ./graphs_oscilaciones/ej1-31-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-31-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-31-eps-converted-to.pdf  use
-d on input line 592.
+d on input line 514.
 (pdftex.def)             Requested size: 151.81682pt x 59.72298pt.
+ [8 <./graphs_oscilaciones/ej1-30-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-32.eps>
 (epstopdf)                    date: 2017-03-06 15:24:30
 (epstopdf)                    size: 11565 bytes
@@ -1220,15 +1229,15 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-32.eps>
 (epstopdf)                    size: 5849 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 32-eps-converted-to.pdf ./graphs_oscilaciones/ej1-32.eps>
-(epstopdf)             \includegraphics on input line 608.
+(epstopdf)             \includegraphics on input line 530.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-32-eps-converted-to.pdf, id=115, 840.13875pt x 407.5
+<./graphs_oscilaciones/ej1-32-eps-converted-to.pdf, id=118, 840.13875pt x 407.5
 225pt>
 File: ./graphs_oscilaciones/ej1-32-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-32-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-32-eps-converted-to.pdf  use
-d on input line 608.
+d on input line 530.
 (pdftex.def)             Requested size: 210.03416pt x 101.88037pt.
 Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-33.eps>
 (epstopdf)                    date: 2017-03-06 15:24:34
@@ -1239,32 +1248,33 @@ Package epstopdf Info: Source file: <./graphs_oscilaciones/ej1-33.eps>
 (epstopdf)                    size: 4818 bytes
 (epstopdf)             Command: <repstopdf --outfile=./graphs_oscilaciones/ej1-
 33-eps-converted-to.pdf ./graphs_oscilaciones/ej1-33.eps>
-(epstopdf)             \includegraphics on input line 626.
+(epstopdf)             \includegraphics on input line 548.
 Package epstopdf Info: Output file is already uptodate.
-<./graphs_oscilaciones/ej1-33-eps-converted-to.pdf, id=117, 754.82pt x 384.4362
+<./graphs_oscilaciones/ej1-33-eps-converted-to.pdf, id=120, 754.82pt x 384.4362
 5pt>
 File: ./graphs_oscilaciones/ej1-33-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./graphs_oscilaciones/ej1-33-eps-converted-to.pdf>
 Package pdftex.def Info: ./graphs_oscilaciones/ej1-33-eps-converted-to.pdf  use
-d on input line 626.
+d on input line 548.
 (pdftex.def)             Requested size: 188.70454pt x 96.10883pt.
-[9 <./graphs_oscilaciones/ej1-30-eps-converted-to.pdf> <./graphs_oscilaciones/e
-j1-31-eps-converted-to.pdf> <./graphs_oscilaciones/ej1-32-eps-converted-to.pdf>
-] 
+
+
 AED: lastpage setting LastPage
-[10 <./graphs_oscilaciones/ej1-33-eps-converted-to.pdf>] (./oscilaciones.aux
+[9 <./graphs_oscilaciones/ej1-31-eps-converted-to.pdf> <./graphs_oscilaciones/e
+j1-32-eps-converted-to.pdf> <./graphs_oscilaciones/ej1-33-eps-converted-to.pdf>
+] (./oscilaciones.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 26380 strings out of 494426
- 543002 string characters out of 6173935
- 543354 words of memory out of 5000000
- 29660 multiletter control sequences out of 15000+600000
- 541569 words of font info for 59 fonts, out of 8000000 for 9000
+ 26972 strings out of 494426
+ 548287 string characters out of 6173935
+ 552160 words of memory out of 5000000
+ 30245 multiletter control sequences out of 15000+600000
+ 542918 words of font info for 65 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 55i,12n,65p,413b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,65p,426b,944s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/te
@@ -1279,10 +1289,10 @@ msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on oscilaciones.pdf (10 pages, 259392 bytes).
+Output written on oscilaciones.pdf (9 pages, 259129 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 183 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
